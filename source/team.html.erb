@@ -1,0 +1,12 @@
+<h1>TEAM SITE</h1>
+
+<h2>Current Team:</h2>
+
+<ul class="list-inline text-center">
+  <% ["wanadana", "axeleration"].each do |member| %>
+    <li>
+      <%= image_tag "#{member}.jpg", class: "img-circle axel-small" %>
+      <h3><%= member %></h3>
+    </li>
+  <% end %>
+</ul>
